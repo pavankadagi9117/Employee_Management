@@ -1,0 +1,53 @@
+.login-logo{
+    /* height: 20%; */
+    margin-left: 40px;
+    /* border: 1px solid red; */
+}
+.logo{
+    width: 8%;
+    cursor: pointer;
+}
+.login-container{
+    display: grid;
+    grid-template-columns: 50% 40% 10%;
+}
+.login-card{
+    /* position: relative; */
+    /* z-index: 10; */
+    box-shadow: 0 4px 8px rgba(0, 0, 0, .2);
+    background-color: #fff;
+    padding: 30px;
+}
+.login-header{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.login-paragraph{
+    opacity: .7;
+    display: inline;
+}
+
+
+/* boostrap */
+.gradient-custom-3 {
+    /* fallback for old browsers */
+    background: #84fab0;
+    
+    /* Chrome 10-25, Safari 5.1-6 */
+    background: -webkit-linear-gradient(to right, rgba(132, 250, 176, 0.5), rgba(143, 211, 244, 0.5));
+    
+    /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+    background: linear-gradient(to right, rgba(132, 250, 176, 0.5), rgba(143, 211, 244, 0.5))
+    }
+    .gradient-custom-4 {
+    /* fallback for old browsers */
+    background: #84fab0;
+    
+    /* Chrome 10-25, Safari 5.1-6 */
+    background: -webkit-linear-gradient(to right, rgba(132, 250, 176, 1), rgba(143, 211, 244, 1));
+    
+    /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+    background: linear-gradient(to right, rgba(132, 250, 176, 1), rgba(143, 211, 244, 1))
+    }
+    

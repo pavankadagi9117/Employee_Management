@@ -1,0 +1,74 @@
+<div class="login-logo">
+    <img src="assets/images/mobicloud.jpg" (click)="redirectToHome()" alt="logo" class="logo" />
+</div>
+<div class="login-container">
+    <img src="assets/images/register-image.png" alt="login-image" />
+
+    <section class=" "
+  >
+  <div class="mask d-flex align-items-center ">
+    <div class="container ">
+      <div class="row  ">
+        <div class="col-12 col-md-12 col-lg-7 col-xl-6">
+          <div class="card"   style="border-radius: 15px;width: 40vw !important;">
+            <div class="card-body  p-5"  >
+              <h4 class="text-uppercase text-center mb-3">Create an account</h4>
+
+              <form [formGroup]="signupform" (ngSubmit)="register(signupform)" >
+
+                <div class="form-outline mb-1">
+                  <input type="text" id="name" formControlName="name" autocomplete="off" required class="form-control form-control-md" />
+                  <label class="form-label" for="name">Your Name</label>
+                </div>
+
+                <div class="form-outline mb-1">
+                  <input type="email" id="email" formControlName="email" autocomplete="off" required class="form-control form-control-md" />
+                  <label class="form-label" for="email">Your Email</label>
+                </div>
+
+                <div class="form-outline mb-1">
+                    <input type="number" id="mobile" formControlName="mobile" autocomplete="off" required class="form-control form-control-md" />
+                    <label class="form-label" for="mobile">Your Mobile Number</label>
+                  </div>
+
+                <div class="form-outline mb-1">
+                  <input type="password" id="password" formControlName="password" autocomplete="off" required class="form-control form-control-md" />
+                  <label class="form-label" for="password">Password</label>
+                </div>
+
+                <div class="form-outline mb-1">
+                  <input type="password" id="repeatpassword" formControlName="repeatpassword" autocomplete="off" required class="form-control form-control-md" />
+                  <label class="form-label" for="repeatpassword">Repeat your password</label>
+                </div>
+
+                <div class="form-check d-flex justify-content-center mb-2">
+                  <input class="form-check-input me-2" type="checkbox" value="" id="form2Example3cg" />
+                  <label class="form-check-label" for="form2Example3g">
+                    I agree all statements in <a href="#!" class="text-body"><u>Terms of service</u></a>
+                  </label>
+                </div>
+
+                <div class="d-flex justify-content-center">
+                  <button type="submit"
+                    class="btn btn-success btn-block btn-lg gradient-custom-4 text-body">Register</button>
+                </div>
+
+                <p class="text-center text-muted mt-2 mb-0">Have already an account? <a [routerLink]="['/signin']"
+                    class="fw-bold text-body"><u>Login here</u></a></p>
+
+              </form>
+
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+</section>
+</div>
+<div>
+
+</div>
+
+
+
